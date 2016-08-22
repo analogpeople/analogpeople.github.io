@@ -1,24 +1,61 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Analogpeople.GitHub.io by analogpeople</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/main.css" media="screen">
-    <link href="grid.css" rel="stylesheet">
-    <link href="font.css" rel="stylesheet">
-    <link href="header.css" rel="stylesheet">
-    <link href="buttons.css" rel="stylesheet">
-    <link href="animation.css" rel="stylesheet">
-    <link href="menu.css" rel="stylesheet">
-    <link href="font-awesome-4.3-2.0/css/font-awesome.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="header">
+<!DOCTYPE HTML>
+<html lang="en">
+<html>
+    <head>
+        <title>Analog people</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=window-width, initial-scale=1">
+        <meta name="Argan beard oil" content="">
+        <meta name="Ya-sin Chahimi" content="">
+        <link rel="icon" type="image/png" href="ysc2.png" />
+        <!--Styles-->
+        <link href="main.css" rel="stylesheet">
+        <link href="grid.css" rel="stylesheet">
+        <link href="font.css" rel="stylesheet">
+        <link href="header.css" rel="stylesheet">
+        <link href="buttons.css" rel="stylesheet">
+        <link href="animation.css" rel="stylesheet">
+        <link href="menu.css" rel="stylesheet">
+        <link href="font-awesome-4.3-2.0/css/font-awesome.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        
+    <script>
+        /* script 1 */
+        $(window).scroll(function() {if ($(this).scrollTop()>0)
+{$('.fade').fadeOut();}else{$('.fade').fadeIn();}});
+        /* script 2 */
+        $(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+        
+    </script>
+        
+        <div class="wrapper fade-in">
+            <div class="header">
             <div class="logo"><a href="#">
                 <h2>analog<br>people</h2></a></div>
         <div class="nav">
@@ -27,25 +64,81 @@
                 <a style="padding:10px;">Say hey</a></div>
           
             </div>
-            <!--
-    <section class="page-header">
-      <h1 class="project-name">Analogpeople.GitHub.io</h1>
-      <h2 class="project-tagline">Think Hack Code</h2>
-    </section>
-    -->
+            </div>
+            
+            
+            
+            <!-- Page Content -->
+     
+                
+            <section class="hero">
+                
+                
+                <div class="hero-text fade">
+                    
+                    <h3>People will always be analog, we are the bridge.</h3>
 
-    <section class="main-content">
-      <p>Analog People</p>
+                    <div class="down"> 
+                    <span></span>
+                    </div>
+                
+                </div>  
+            
+            </section>
+                
+            <section class="cargo">
+                
+                <div class="col-3">
+                    <h3 style="text-align:center; padding-top:10vh;">AutoPharma Concept</h3>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+                    
+                     <br><br>
+Donec sed odio dui. Donec sed odio dui. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    
+                </div>
+                
+                                
 
-<p>Analog People</p>
-
-      <footer class="site-footer">
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+                
+                 <div class="col-3">
+                    <h3 style="text-align:center; padding-top:10vh;">Moveability Concept</h3>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+                    
+                     <br><br>
+Donec sed odio dui. Donec sed odio dui. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                     
+                </div>
+                
+                
+                
+                <div class="col-3">
+                    <h3 style="text-align:center; padding-top:10vh;">HelseInvest Project</h3>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+                    
+                     <br><br>
+Donec sed odio dui. Donec sed odio dui. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    
+                </div>
+                
+                
+                
+            </section>
+            
+            <section class="case"></section>
+            
+                
+            
+            <div class="footer fade">
+                <div style="height:20px"> </div>
+                <div class="footer-l"><a>© Analog people</a></div>
+                <div class="footer-r">
+                <a href="#">+47 41343737</a> <a href="#">sayhey@analogpeople.no</a>
+            </div>
+            
+                </div>
+            
+            
+            </div>
+    </body>
 </html>
+    
