@@ -1,0 +1,18 @@
+body{
+  background: #333;
+}
+
+button{
+  position: relative;
+  z-index: 99;
+}
+
+#loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  border-radius: 0%;
+}

@@ -1,0 +1,15 @@
+
+.row {margin: 0px, 0px, 0px, 0px; background: #eee;}
+.col-1 {width: 100%; float: left; overflow: hidden;}
+.col-2 {width: 50%; float: left; overflow: hidden;}
+.col-3 {width: 33.33%; float: left; overflow: hidden;}
+.col-4 {width: 25%; float: left; overflow: hidden;}
+
+@media(max-width:800px) {
+    
+.col-1 {width: 100%; float: left;}
+.col-2 {width: 100%; float: left;}
+.col-3 {width: 100%; float: left;}
+.col-4 {width: 100%; float: left;}   
+        
+}

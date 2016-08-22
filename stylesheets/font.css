@@ -1,0 +1,27 @@
+p {font-family: helvetica, sans-serif; font-size: 13px; color: #fff; line-height: 22px; padding: 40px; text-align:justify;}
+
+a {font-family: futura, sans-serif; color: #fff; text-decoration: none; font-weight: 400; font-size: 13px}
+a:hover {color: aquamarine;}
+
+.menu-a {color:#fff; font-size: calc(2.2rem + 2.2vw;)}
+.menu-a:hover {color:aquamarine;}
+
+
+h1, h2, h3 {font-family: helvetica, sans-serif; color: #fff;}
+
+h1 {font-size: calc(2.2rem + 2.2vw); color:rgba(255, 255, 255, 1.0); font-size: calc(1.4rem + 2.2vw);}
+
+h3 {font-size: calc(1.0rem + 1.0vw); color:rgba(255, 255, 255, 1.0); text-align: center;}
+
+h4 {font-size: calc(0.8rem + 0.8vw); color:rgba(000, 000, 000, 1.0); text-align: center;}
+
+.narrow {margin: 50px, 50px, 50px, 50px;}
+
+ @media(max-width:400px) {
+     p {font-size: 16px; padding: 20px}
+    }
+
+.menu-pop {font-family: Helvetica, sans-serif; color: #171717; text-decoration: none; font-weight: 400;}
+.menu-pop:hover {font-size: 50px; color: #b22724} 
+
+hr {border-width: 1px; display: block; width: 80%; margin-left:10%; border-color: aquamarine;}
