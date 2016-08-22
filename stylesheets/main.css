@@ -1,0 +1,218 @@
+ body {background: #171717; margin: 0px; z-index: 0;}
+
+.wrapper {visibility: visible; margin-bottom: 0px;} /* Alt. 60px */
+
+/* Sections */
+
+.hero {
+    background:#171717 url();
+    background-size: cover; background-attachment: ; background-size: cover; background-repeat: no-repeat; background-position: justify; 
+    height: 100vh;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cargo {
+    background: #3123e3;
+    background: cover no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    text-align: ;
+    z-index: 1;
+    color: rgba(000, 000, 000, 0.8);
+    font-size: calc(1.2rem + 2.2vw);    
+    top: 50%;
+	left: 50%;
+;
+}
+
+.hero-bg {
+    background: #fff;
+    width: 100vw;
+    height: 200vh;
+    z-index: 99;
+}
+
+.case {
+    z-index: 2;
+    background: #d90d3a;
+    position:;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center top;
+    -ms-flex-pack: center top;
+    justify-content: center top;
+    -webkit-align-items: center top;
+    -ms-flex-align: center top;
+    align-items: center top;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.case-text {height:;}
+
+.project_box {
+    min-height: 50vh;
+    padding-left: 7%; padding-right: 7%;
+}
+@media(max-width:400px) {
+    .project_box {
+        padding: 0px;
+    }
+}
+
+/* Media */
+
+#hero-clip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    visibility: visible; display: block;
+}
+
+@media(max-width:400px) {
+    #hero-clip {visibility: hidden; display: none;}
+    }
+
+
+/* Footer begins */
+
+.footer {
+    z-index: 2;
+    bottom:0;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    position: relative;
+    overflow: hidden;
+    text-align: ;
+    background: ;
+}
+
+@media(max-width:400px) {
+    .footer {background: #171717}
+    }
+
+.footer-l {float:left; left: 0; padding-left: 30px;}
+@media(max-width:400px) {
+    .footer-l {visibility: hidden; display: none;}
+    }
+
+.footer-r {float:right; right: 0; padding-right: 20px;}
+@media(max-width:400px) {
+    .footer-r {text-align: center; float: none;}
+    }
+
+/* Footer end */
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -130px;}
+.circular {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;}
+
+.bottle {margin-top: 20vh;}
+    @media(max-width:400px) {
+    .bottle {margin-top: 10vh;}
+    }
+
+
+/* DOWN LINE */
+
+
+.down {
+  display: block;
+  margin: 0 auto;
+  width: 0px;
+  height: 0px;
+  border-radius: 0px;
+  border: 0px solid #000;
+  position: absolute;
+  bottom: 40vh;
+  left: 50%;
+  margin-left: -1px;
+}
+.down span {
+  display: block;
+  margin: -1px auto;
+  width: 2px;
+  height: 20vh;
+  border-radius: 4px;
+  background: #fff;
+  border: 0px solid transparent;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+.turn:mouseover {}
